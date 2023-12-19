@@ -1,0 +1,150 @@
+a:hover{
+    text-decoration: none;
+}
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    justify-content: center;
+}
+#header{
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+}
+
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+    /* padding-left: 0px; */
+    /* margin-left: 0px; */
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    color: #fff;
+    /* background-color: #ffffff; */
+    padding: 15px;
+    display: block;
+}
+
+#menu li a:hover{
+    background-color:#16a085;
+}
+
+#banner{
+    background: url('Images/home-bg-3.jpg') no-repeat;
+    height: 580px;
+    width: 100%;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 12rem;
+    margin-left: 100px;
+}
+.banner-title h1{
+    background: rgba(255,255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.banner-title p{
+    background: rgba(255,255, 255, 0.8);
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.banner-title p .lead{
+    margin-left: 900px;
+    color: #fff;
+    background-color: #ffffff;
+    display: inline-block;
+
+}
+.section-head{
+    text-align: center;
+}
+.service-box{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.service-box h3{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.service-box p{
+    font-size: 25px;
+
+}
+
+.service-box i .fa{
+    color: black;
+    background-color: #fff;
+}
+
+#review{
+    background-color:lightblue;
+    /* justify-content: center; */
+}
+
+/* .reviews h3{
+    margin-top: 18px;
+} */
+.pack h3{
+    margin-top: 20px;
+}
+
+a.readmore{
+    font-size: 20px;
+}
+
+a.readmore:after{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-left: 5px;
+}
+
+#footer-sidebar{
+    background-color: rgba(0, 0, 0, 0.736);
+    color: #fff;
+}
+
+.footer-width h4{
+    margin-top: 20px;
+}
+.latest{
+    list-style: none;
+}
+
+.latest li::before{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-right: 15px;
+
+
+}
+#footer{
+    background-color:rgba(0, 0, 0, 0.855);
+    color: #fff;
+}
+#social{
+    list-style: none;
+    font-size: 28px;
+}
+
+#social li{
+    display: inline-block;
+    padding: 10px;
+
+}
+
